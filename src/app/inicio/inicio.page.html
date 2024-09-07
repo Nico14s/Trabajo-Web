@@ -1,0 +1,33 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title class="titulos">Bienvenidos</ion-title>
+    </ion-toolbar>
+    <ion-toolbar>
+      <ion-title class="subTitulos">Registro de usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label position="floating">Nombre:</ion-label>
+    <ion-input position="floating" name="nombre" [(ngModel)]="nombre" [counter]="true" type="text" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Apellido:</ion-label>
+    <ion-input position="floating" name="apellido"  [(ngModel)]="apellido" [counter]="true" type="text" ></ion-input>
+  </ion-item>
+  
+  <ion-button (click)="Ingresar()" expand="block"  shape="round">Ingresar</ion-button>
+</ion-content>
+<ion-card>
+  <img  class="small-image"  src="assets/imagenes/1.png" />
+  <ion-card-header>
+    <ion-card-subtitle>Pizzeria Maintencillo</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    Estamos ubicacos en avenida del Mar #739
+  </ion-card-content>
+</ion-card>
+</ion-app>

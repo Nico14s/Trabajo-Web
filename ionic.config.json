@@ -1,0 +1,7 @@
+{
+  "name": "TrabajoWeb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
